@@ -1,7 +1,8 @@
 
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
 
-const serverUrl = 'http://localhost:5000/graphql';
+//const serverUrl = 'http://localhost:5000/graphql';
+const serverUrl = 'https://vocab-app-jg4d.onrender.com/graphql';
 
 const client = new ApolloClient({ // Create a new Apollo Client instance
   uri: serverUrl,
